@@ -1,2 +1,1 @@
-# tinderdog.github.io
-tinderdog
+TinDog Starting Files

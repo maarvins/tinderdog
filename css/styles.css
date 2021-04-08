@@ -1,0 +1,203 @@
+body {
+font-family: "Montserrat";
+font-size: 18px;
+text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Montserrat-Bold";
+   }
+
+p {
+color: #8f8f8f;
+font-weight: bold;
+}
+
+
+/*Headings section*/
+
+.bigheading {
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  line-height: 1.2 ;
+}
+
+.section-heading {
+  margin: 5% 0 0 ;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*sections*/
+
+.colored-section{
+background-color: #ff4c68;
+color: #fff;
+}
+
+.white-section {
+background-color: #fff;
+}
+
+/* Navigation bar */
+
+#navbarToggleExternalContent {
+margin-left: 70%;
+                    }
+
+.navbar {
+  padding-bottom: 4.5rem;
+        }
+
+.navbar-brand {
+  font-family: "Courier";
+  font-size: 1.5rem;
+  font-weight: bold;
+              }
+
+.nav-item {
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+margin:  20px ;/*separando um link do outro*/
+padding: 0 18px;
+text-decoration: none;/*retirando a linha abaixo do link*/
+          }
+
+.nav-link {
+font-family: "Montserrat-light";
+font-size: 1.2rem;
+          }
+
+/*Buttons*/
+.btn {
+  font-family: "Arial-Bold";
+  font-size: 1.5rem;
+  margin: 15% 9% 2% 0;
+     }
+
+/* Title section */
+/* alterar padding unica e exclusivamente dentro do título*/
+.title .container-fluid {
+  padding: 3% 15% 7%;
+   text-align: left;
+}
+
+
+/*Tittle Image*/
+.title-image {
+  left: 40%;
+  position: relative ;
+  transform: rotate(30deg);
+  width: 60%;
+             }
+
+/* features section */
+.features {
+  padding: 3% ;
+  position: relative;
+          }
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 1% ;
+             }
+.icon {
+color: #ff4c68;
+margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color:#ff4c68;
+}
+
+/* Testemonials Section */
+
+.testimonials {
+background-color: #ff4c68;
+font-family: "Arial-Bold";
+font-size: 2rem;
+font-weight: bold;
+padding: 7% 15% ;
+}
+
+.testimonial-text {
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 200%;
+  margin: 20px;
+  max-width: 300px;
+}
+
+
+/* press section */
+
+.press {
+  background-color: #ff4c68 ;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+margin: 20px 20px 50px;
+width: 15%;
+}
+
+/*pricing section*/
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.pricing-column {
+  font-weight: bolder;
+  padding: 3% 2%;
+}
+
+.row {
+  width: 95%;
+}
+
+/*CTA SECTION*/
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+/*Footer Section*/
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-widht: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    margin: 15% ;
+    position: static;
+    transform: rotate(0);
+  }
+}
