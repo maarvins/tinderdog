@@ -166,7 +166,8 @@ width: 15%;
 }
 
 .row {
-  width: 95%;
+  width: 80%;
+margin: 0 10%;
 }
 
 /*CTA SECTION*/
