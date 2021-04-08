@@ -135,8 +135,13 @@ padding: 7% 15% ;
 
 .testimonial-image {
   border-radius: 200%;
-  margin: 20px 0 0 0;
-  max-width: 200px;
+  margin: 50px 0 0 0;
+  max-width: 250px;
+  position: relative;
+  right: 20%;
+}
+
+.text-img {
   position: relative;
   right: 20%;
 }
